@@ -23,6 +23,8 @@ CREATE TABLE OrderDetailsNew (
     PRIMARY KEY (OrderID, Product)
 );
 
+
+
 -- Insert data into OrderDetailsNew table
 INSERT INTO OrderDetailsNew (OrderID, Product, Quantity)
 SELECT OrderID, Product, Quantity
